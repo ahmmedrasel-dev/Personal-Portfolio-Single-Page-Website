@@ -1,0 +1,20 @@
+.screen {
+	display: block;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #e6e4e4;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+.screen img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 0;
+  margin: auto;
+  left: 0;
+  right: 0;
+  padding: 0;
+}

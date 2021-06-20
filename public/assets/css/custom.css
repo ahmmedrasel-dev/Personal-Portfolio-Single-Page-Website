@@ -1,0 +1,62 @@
+/* Write your custom CSS here */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    outline: 0;
+}
+
+.side_menu_icon {
+	display: flex;
+    justify-content: center;
+	margin-top: 50px;
+}
+
+.side_menu_icon li {
+    margin-right: 20px;
+}
+
+.side_menu_icon li:last-child {
+    margin-right: 0px;
+}
+
+.side_menu_icon li a {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 18px;
+}
+
+.side_menu_icon li:nth-child(1) a {
+    background: #4268B3;
+}
+
+.side_menu_icon li:nth-child(2) a {
+    background: #E1003E;
+}
+
+.side_menu_icon li:nth-child(3) a {
+    background: #50ABF1;
+}
+
+
+.side_menu_icon li:nth-child(4) a {
+    background: #0076B4;
+}
+
+.side_menu_icon li:nth-child(5) a {
+    background: #353535;
+}
